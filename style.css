@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #000;
+}
+.btn-new {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Verdana";
+  font-size: 1.4rem;
+  font-weight: bold;
+  background-color: #9aabd8;
+  color: #000;
+  border-radius: 1rem;
+  padding: 0.3rem 1rem;
+  transition: all 0.3s;
+}
+.btn-new:hover,
+.btn-new:active {
+  cursor: pointer;
+  background-color: #7582a7;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b244a;
+  width: 57rem;
+  height: 38rem;
+  margin: auto;
+  margin-top: 2.8rem;
+  padding: 3rem 4.6rem;
+}
+.scoreboard-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  font-family: "Verdana";
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #eeeeee;
+  margin-bottom: 2.2rem;
+  margin-top: 0;
+}
+.point-text-box {
+  width: 15.5rem;
+  height: 12rem;
+  background-color: #000;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.point-text {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+  font-size: 9rem;
+  color: #f94f6d;
+}
+.add-points-btns {
+  display: flex;
+  gap: 1.3rem;
+  margin-top: 2.4rem;
+}
+.plus-point {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 1.8rem;
+  color: #9aabd8;
+  border: solid 2px #9aabd8;
+  border-radius: 7px;
+  height: 4.2rem;
+  width: 4.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.plus-point:hover,
+.plus-point:active {
+  background-color: rgba(0, 0, 0, 0.5);
+}
